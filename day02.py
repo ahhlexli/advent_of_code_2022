@@ -1,9 +1,10 @@
 def part_one():
-
-    ## A = Rock, B = Paper, C = Scissors
-    ## X = Rock, Y = Paper, Z = Scissors
-    ## Points Rock = 1, Paper = 2, Scissors = 3
-    ## Points Win = 6, Draw = 3, Lose = 0
+    """
+    A = Rock, B = Paper, C = Scissors
+    X = Rock, Y = Paper, Z = Scissors
+    Points Rock = 1, Paper = 2, Scissors = 3
+    Points Win = 6, Draw = 3, Lose = 0
+    """
 
     file_name = "day02_input.txt"
 
@@ -29,11 +30,12 @@ def part_one():
 
 
 def part_two():
-
-    ## A = Rock, B = Paper, C = Scissors
-    ## X = Lose, Y = Draw, Z = Win
-    ## Points Rock = 1, Paper = 2, Scissors = 3
-    ## Points Win = 6, Draw = 3, Lose = 0
+    """
+    A = Rock, B = Paper, C = Scissors
+    X = Lose, Y = Draw, Z = Win
+    Points Rock = 1, Paper = 2, Scissors = 3
+    Points Win = 6, Draw = 3, Lose = 0
+    """
 
     file_name = "day02_input.txt"
 
