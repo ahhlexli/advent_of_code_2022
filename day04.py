@@ -1,6 +1,3 @@
-from ast import Or
-
-
 def part_one():
 
     file_name = "day04_input.txt"
