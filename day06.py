@@ -24,10 +24,10 @@ def part_two():
 
     for i in range(13, len(puzzle_input)):
 
-        previous_four = puzzle_input[i - 13 : i + 1]
-        previous_four_set = set(previous_four)
+        previous_characters = puzzle_input[i - 13 : i + 1]
+        previous_characters_set = set(previous_characters)
 
-        if len(previous_four_set) == 14:
+        if len(previous_characters_set) == 14:
 
             return i + 1
 
